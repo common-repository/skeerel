@@ -1,0 +1,42 @@
+.input-group {
+  display: flex;
+}
+
+.input-group-append {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -45px;
+  margin-top: -5px;
+}
+
+.btn-outline-secondary {
+  border: none;
+  background-color: #fff0;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.btn-outline-secondary:hover {
+  color : #5d5d5d54;
+}
+
+.form-control {
+ padding-right: 50px !important;
+}
+
+.error-msg {
+   display:none;
+   height: 50px;
+   margin-top: -25px;
+}
+
+@media only screen and (max-width: 795px) {
+ 
+ input.regular-input {
+   width: 100% !important;
+ }
+
+ .error-msg {
+   margin-top: -1em;
+ }
+}

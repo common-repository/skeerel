@@ -1,0 +1,78 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.btn-skeerel {
+    background-color: #ee5a4b !important;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
+
+.btn-skeerel:hover {
+    background-color: #d85144 !important;
+    color: #fff;
+}
+
+.fas, .far {
+    color: #ee5a4b !important;
+}
+
+.card {
+    padding: 20px 0px 0px 20px;
+    margin-bottom: 1.5em;
+    max-width: 100% !important;
+    background: #fff !important;
+    display: none;
+}
+
+.wrapped-up {
+    padding: 10px 0px 0px 20px;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #dedede !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f1f1f1 !important;
+}
+
+.loader {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #23282d;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .w-75 {
+        width: 97% !important;
+    }
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+/* wordpress error bar */
+div .error {
+    margin-left: 0em;
+    margin-top: 2em;
+}

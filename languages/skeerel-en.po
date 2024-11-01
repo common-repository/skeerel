@@ -1,0 +1,445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Skeerel WooCommerce 1.0.0\n"
+"POT-Creation-Date: 2020-04-13 19:25+0200\n"
+"PO-Revision-Date: 2020-04-13 20:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: ArcanSecurity\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-menu.php:31
+msgid "Espace de configuration"
+msgstr "Settings"
+
+#: admin/admin-menu.php:32 woocommerce/Skeerel_Gateway.php:178
+msgid "Skeerel"
+msgstr "Skeerel"
+
+#: admin/check-woocommerce.php:17
+msgid ""
+"Skeerel a besoin que WooCommerce soit installé et activé pour fonctionner."
+msgstr "Skeerel needs WooCommerce to be installed and enabled to work."
+
+#: admin/check-woocommerce.php:17
+#, php-format
+msgid " Vous pouvez télécharger %s ici."
+msgstr " You can download %s here."
+
+#: admin/check-woocommerce.php:72 admin/check-woocommerce.php:86
+#: admin/onboarding.php:164 admin/onboarding.php:264
+msgid ""
+"Votre site est en cours de vérification pour pouvoir effectuer des paiements "
+"live."
+msgstr ""
+"Your website is being reviewed. You should be able to accept live payments "
+"soon."
+
+#: admin/check-woocommerce.php:75 admin/check-woocommerce.php:88
+#: admin/onboarding.php:214
+msgid ""
+"Pour pouvoir accepter des paiements live, vous devez vous rendre sur votre "
+"espace e-commerçant Skeerel et demander la vérification de votre site."
+msgstr ""
+"In order to receive live payments, you have to go to your e-commerce "
+"dashboard and ask the Skeerel's team to verify your website."
+
+#: admin/check-woocommerce.php:78 admin/check-woocommerce.php:92
+msgid ""
+"Le nom de domaine de votre site: [SITE], n'est pas enregistré sur votre "
+"espace e-commerçant Skeerel. <a href='https://admin.skeerel.com/websites' "
+"target='_blank'>Cliquez ici</a> pour l'ajouter"
+msgstr ""
+"The domain of your website: [SITE], is not registered in your e-commerce "
+"dashboard. <a href='https://admin.skeerel.com/websites' "
+"target='_blank'>Click here</a> to add it"
+
+#: admin/check-woocommerce.php:123
+msgid ""
+"La clé d'API Skeerel a été révoquée. Pour que Skeerel continue à fonctionner "
+"correctement, saisissez la nouvelle clé"
+msgstr ""
+"Your API key has been revoked. Skeerel needs your new key to continue to work"
+
+#: admin/check-woocommerce.php:124
+msgid "ici."
+msgstr "here."
+
+#: admin/onboarding.php:19 admin/onboarding.php:41
+msgid "Etape 1"
+msgstr "Step 1"
+
+#: admin/onboarding.php:20 admin/onboarding.php:42
+msgid "Créer mon compte"
+msgstr "Create my account"
+
+#: admin/onboarding.php:21
+msgid "Optimisez votre taux de conversion e-Commerce avec Skeerel."
+msgstr "Optimize your conversion rate with Skeerel."
+
+#: admin/onboarding.php:25
+msgid "Créer mon compte Skeerel e-commercant"
+msgstr "Create my e-commerce account on Skeerel"
+
+#: admin/onboarding.php:29
+msgid "J'ai déjà un compte"
+msgstr "I already have an account"
+
+#: admin/onboarding.php:33
+msgid "Suivant "
+msgstr "Next "
+
+#: admin/onboarding.php:49 admin/onboarding.php:91
+msgid "Etape 2"
+msgstr "Step 2"
+
+#: admin/onboarding.php:50 admin/onboarding.php:92
+msgid "Insérer les identifiants d'API"
+msgstr "Insert your API credentials"
+
+#: admin/onboarding.php:55
+msgid "Identifiant du site"
+msgstr "Website ID"
+
+#: admin/onboarding.php:58
+msgid "Identifiant"
+msgstr "ID"
+
+#: admin/onboarding.php:64 woocommerce/skeerel-settings.php:60
+msgid "Clé secrète"
+msgstr "Secret key"
+
+#: admin/onboarding.php:67
+msgid "Cliquez ici pour afficher/masquer la clé d'API"
+msgstr "Click here to show or hide your API key"
+
+#: admin/onboarding.php:79 woocommerce/Skeerel_Gateway.php:176
+msgid "Tester la connexion"
+msgstr "Test the connection"
+
+#: admin/onboarding.php:99 admin/onboarding.php:113 admin/onboarding.php:162
+#: admin/onboarding.php:212 admin/onboarding.php:262 admin/onboarding.php:318
+msgid "Etape 3"
+msgstr "Step 3"
+
+#: admin/onboarding.php:100
+msgid "Commencez à utiliser Skeerel"
+msgstr "Start using Skeerel"
+
+#: admin/onboarding.php:114
+msgid "C'est tout bon"
+msgstr "It's all set"
+
+#: admin/onboarding.php:115
+msgid "Votre site est prêt à recevoir des paiements live."
+msgstr "You website is ready to receive live payments."
+
+#: admin/onboarding.php:117 admin/onboarding.php:166 admin/onboarding.php:216
+msgid "Votre site est correctement configuré"
+msgstr "Your website is configured"
+
+#: admin/onboarding.php:123 admin/onboarding.php:173 admin/onboarding.php:223
+#: admin/onboarding.php:279 admin/onboarding.php:333
+#: woocommerce/skeerel-settings.php:39
+msgid "Utiliser Skeerel en mode test (transactions fictives)"
+msgstr "Use Skeerel in test mode (fake payments)"
+
+#: admin/onboarding.php:128 admin/onboarding.php:178 admin/onboarding.php:228
+#: admin/onboarding.php:284 admin/onboarding.php:338
+msgid "Activer Skeerel uniquement pour les administrateurs"
+msgstr "Enable Skeerel only for administrators"
+
+#: admin/onboarding.php:134 admin/onboarding.php:184 admin/onboarding.php:234
+#: admin/onboarding.php:290 admin/onboarding.php:344
+#: woocommerce/skeerel-settings.php:19
+msgid "Activer Skeerel sur la page panier"
+msgstr "Show Skeerel on checkout page"
+
+#: admin/onboarding.php:140 admin/onboarding.php:190 admin/onboarding.php:240
+#: admin/onboarding.php:296 admin/onboarding.php:350
+#: woocommerce/skeerel-settings.php:31
+msgid "Activer l'encart achat en 1-clic sur la page panier"
+msgstr "Show Skeerel in top of checkout page"
+
+#: admin/onboarding.php:146 admin/onboarding.php:196 admin/onboarding.php:246
+#: admin/onboarding.php:302 admin/onboarding.php:356
+#: woocommerce/skeerel-settings.php:25
+msgid "Activer Skeerel sur les pages produits"
+msgstr "Show Skeerel on products pages"
+
+#: admin/onboarding.php:152 admin/onboarding.php:202 admin/onboarding.php:252
+#: admin/onboarding.php:308 admin/onboarding.php:362
+msgid "Terminer"
+msgstr "Finish"
+
+#: admin/onboarding.php:163 admin/onboarding.php:213 admin/onboarding.php:263
+#: admin/onboarding.php:319
+msgid "C'est (presque) tout bon"
+msgstr "It's (almost) done"
+
+#: admin/onboarding.php:268 admin/onboarding.php:324
+msgid ""
+"Le nom de domaine de votre site n'est pas enregistré sur votre espace e-"
+"commerçant Skeerel. "
+msgstr ""
+"The domain name of your website is not registered in your e-commerce "
+"dashboard on Skeerel. "
+
+#: admin/onboarding.php:269 admin/onboarding.php:325
+msgid ""
+"Pour recevoir des paiements (test ou live), vous devez l'autoriser en vous "
+"rendant sur votre espace e-commerçant Skeerel."
+msgstr ""
+"In order to receive payments (fake or real), you have to insert it by going "
+"on your e-commerce dashboard on Skeerel."
+
+#: admin/onboarding.php:271 admin/onboarding.php:326
+msgid "Noms de domaines actuellement autorisés: "
+msgstr "Allowed domain names: "
+
+#: admin/onboarding.php:320
+msgid "Votre site est prêt à recevoir des paiements en ligne."
+msgstr "Your website is ready to receive live payments."
+
+#: api/Skeerel_Custom_Route.php:221 api/Skeerel_Custom_Route.php:247
+#: api/Skeerel_Custom_Route.php:508
+msgid "Connexion échouée: identifiants incorrects"
+msgstr "Connection failed: incorrect website ID or secret key"
+
+#: api/Skeerel_Custom_Route.php:250
+msgid "Connexion réussie !"
+msgstr "Connection successful !"
+
+#: api/Skeerel_Custom_Route.php:377
+msgid "Point relais"
+msgstr "Relay"
+
+#: api/Skeerel_Custom_Route.php:378
+msgid "Adresse communiquée par le vendeur"
+msgstr "Address given by the vendor"
+
+#: api/Skeerel_Custom_Route.php:534
+msgid "[erreur]"
+msgstr "[error]"
+
+#: skeerel.php:99
+msgid "Skeerel Pay"
+msgstr "Skeerel Pay"
+
+#: skeerel.php:100 templates/skeerel_encart_checkout.php:13
+msgid "Achat express"
+msgstr "Achat express"
+
+#: templates/skeerel_button_product_page.php:15
+msgid "Achetez en un clic !"
+msgstr "Buy in one click!"
+
+#: templates/skeerel_button_product_page.php:25
+#: templates/skeerel_encart_checkout.php:20
+msgid ""
+"Skeerel vous propose une solution d'achat en ligne sécurisée, simple et "
+"rapide."
+msgstr "Skeerek provides an easy, yet secure and quick buying solution."
+
+#: templates/skeerel_button_product_page.php:26
+#: templates/skeerel_encart_checkout.php:21
+msgid ""
+"Téléchargez l'application Skeerel sur votre smartphone, flashez le QR Code "
+"et achetez sur tous les sites marchands partenaires du réseau Skeerel !"
+msgstr ""
+"Download the Skeerel app on your smartphone, flash the QRCode and buy on "
+"every e-commerce websites of the Skeerel's network!"
+
+#: templates/skeerel_button_product_page.php:28
+#: templates/skeerel_encart_checkout.php:23
+msgid "En savoir plus"
+msgstr "Find out more"
+
+#: templates/skeerel_button_product_page.php:95
+msgid ""
+"Veuillez sélectionner certaines options du produit avant de l’ajouter à "
+"votre panier."
+msgstr "Please, select products options before adding it to the basket."
+
+#: templates/skeerel_encart_checkout.php:46
+msgid "ou"
+msgstr "or"
+
+#: woocommerce/Skeerel_Gateway.php:23 woocommerce/Skeerel_Gateway.php:24
+msgid "Skeerel - Achat Express"
+msgstr "Skeerel - Express Checkout"
+
+#: woocommerce/Skeerel_Gateway.php:25
+msgid ""
+"Skeerel permet à vos clients de payer en 1-clic sans avoir à enregistrer "
+"leurs informations de livraison et de paiement."
+msgstr "Skeerel provides a solution to help your customer pay in 1-click."
+
+#: woocommerce/Skeerel_Gateway.php:26
+msgid ""
+"Payez en 1 clic avec Skeerel par carte bancaire, Google Pay ou Apple Pay. "
+"Cliquez directement sur le bouton de paiement sans remplir le formulaire."
+msgstr ""
+"1-click payment with Skeerel via credit card, Google Pay or Apple Pay. Click "
+"directly on the payment button without filling the form."
+
+#: woocommerce/Skeerel_Gateway.php:27
+msgid "Payer avec Skeerel"
+msgstr "Pay with Skeerel"
+
+#: woocommerce/Skeerel_Gateway.php:134
+msgid "Qu'est-ce que Skeerel ?"
+msgstr "What is Skeerel?"
+
+#: woocommerce/Skeerel_Gateway.php:175 woocommerce/skeerel-settings.php:55
+#: woocommerce/skeerel-settings.php:56
+msgid "Identifiant du site internet"
+msgstr "Website's ID"
+
+#: woocommerce/Skeerel_Gateway.php:218
+msgid ""
+"Identifiants incorrects. Vérifiez la validité de votre clé d'API puis "
+"réessayez."
+msgstr "Incorrect credentials. Verify your API key and retry."
+
+#: woocommerce/Skeerel_Gateway.php:348
+msgid "Une erreur est survenue lors du remboursement."
+msgstr "An error occurred during the refund."
+
+#: woocommerce/Skeerel_Gateway.php:351
+msgid ""
+"Une commande doit être marquée comme en cours/terminée pour pouvoir procéder "
+"au remboursement."
+msgstr ""
+"An order must be flagged in progress or complete in order to refund it."
+
+#: woocommerce/Skeerel_Gateway.php:354
+#, php-format
+msgid "Client remboursé de %d€."
+msgstr "Customer received a refund of %d€."
+
+#: woocommerce/skeerel-core-functions.php:156
+msgid "L'entreprise a pour numéro de TVA : "
+msgstr "VAT number for company: "
+
+#: woocommerce/skeerel-core-functions.php:161
+#: woocommerce/skeerel-core-functions.php:301
+msgid "Commande validée. L'argent a été transféré sur votre compte Skeerel."
+msgstr "Order verified. Money has been transferred on your Skeerel account."
+
+#: woocommerce/skeerel-core-functions.php:163
+#: woocommerce/skeerel-core-functions.php:303
+msgid ""
+"Ce paiement semble suspect. Si vous jugez qu'il s'agit d'un paiement "
+"légitime, cliquez sur Action > Capturer le paiement. "
+msgstr ""
+"This payment seems suspect. If you think it is a legitimate payment, click "
+"on Action > Capture the payment. "
+
+#: woocommerce/skeerel-core-functions.php:176
+#: woocommerce/skeerel-core-functions.php:313
+msgid "Une erreur est survenue. Merci de bien vouloir réessayer."
+msgstr "An error occurred. Please, try again."
+
+#: woocommerce/skeerel-core-functions.php:348
+msgid "Capturer le paiement"
+msgstr "Capture the payment"
+
+#: woocommerce/skeerel-core-functions.php:362
+msgid "Rejeter le paiement"
+msgstr "Reject the payment"
+
+#: woocommerce/skeerel-core-functions.php:385
+msgid ""
+"Le paiement a été capturé. L'argent est disponible sur votre compte Skeerel. "
+msgstr ""
+"The payment has been captured. The money is available in your e-commerce "
+"dashboard on Skeerel. "
+
+#: woocommerce/skeerel-core-functions.php:387
+msgid ""
+"La paiement n'a pas pu être capturé. Si le problème persiste, contactez "
+"Skeerel."
+msgstr ""
+"The payment cannot be captured. If the error persists, contact Skeerel."
+
+#: woocommerce/skeerel-core-functions.php:408
+msgid ""
+"Le paiement a été rejeté. Les fonds ne seront pas transférés vers votre "
+"compte Skeerel."
+msgstr ""
+"The payment has been rejected. The funds will not be transferred to your "
+"Skeerel account."
+
+#: woocommerce/skeerel-core-functions.php:410
+msgid ""
+"La paiement n'a pas pu être rejeté. Si le problème persiste, contactez "
+"Skeerel."
+msgstr ""
+"The payment cannot be reject. If the problem persists, contact Skeerel."
+
+#: woocommerce/skeerel-core-functions.php:534
+msgid " + frais de ports (calculés dans l'application Skeerel)"
+msgstr " + shipping fees (computed within the Skeerel app)"
+
+#: woocommerce/skeerel-settings.php:10
+msgid "Paramètres généraux"
+msgstr "General settings"
+
+#: woocommerce/skeerel-settings.php:11
+msgid "Activer Skeerel"
+msgstr "Enable Skeerel"
+
+#: woocommerce/skeerel-settings.php:18
+msgid "Affichage"
+msgstr "Show"
+
+#: woocommerce/skeerel-settings.php:38
+msgid "Mode test"
+msgstr "Test mode"
+
+#: woocommerce/skeerel-settings.php:45
+msgid "Autorisations"
+msgstr "Authorizations"
+
+#: woocommerce/skeerel-settings.php:46
+msgid "Activer Skeerel uniquement pour les administrateurs."
+msgstr "Enable Skeerel only for administrators."
+
+#: woocommerce/skeerel-settings.php:53
+msgid "Identifiant d'API"
+msgstr "API credentials"
+
+#: woocommerce/skeerel-settings.php:62
+msgid ""
+"La clé secrète n'est pas affichée par défaut pour des raisons de sécurité. "
+"Vous pouvez continuer à utiliser Skeerel"
+msgstr ""
+"The secret key is not shown for security reasons. You can continue to use "
+"Skeerel"
+
+#: woocommerce/skeerel-settings.php:68
+msgid "Texte bouton page panier"
+msgstr "Text of the basket page's button"
+
+#: woocommerce/skeerel-settings.php:70
+msgid ""
+"Ce paramètre contrôle le texte que l'utilisateur voit lors de la commande"
+msgstr "This setting set the text that an user see during the order"
+
+#: woocommerce/skeerel-settings.php:71 woocommerce/skeerel-settings.php:78
+msgid "Achat express avec Skeerel"
+msgstr "Express checkout with Skeerel"
+
+#: woocommerce/skeerel-settings.php:75 woocommerce/skeerel-settings.php:77
+msgid "Texte bouton pages produit"
+msgstr "Text of the product page's button"
